@@ -1,0 +1,12 @@
+Projeto "site" visa um currículo virtual atualizado, sendo intuitivo e responsivo.
+
+Ao decorrer desta criação irei me familiarizar com estas linguagens ->
+
+Nível 1:
+- HTML
+- CSS
+- JavaScript
+
+Nível 2:
+- TypeScript
+- React

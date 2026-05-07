@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<!--Onde irá conter todo o código-->
+<html>
+    <!--Cabeça-->
+    <head>
+        <meta name="description" content="Um quiz interativo para testar os seus conhecimentos">
+        <title>Quiz para progrmadores</title>
+    </head>
+
+    <!--Corpo-->
+    <body>
+        <!--Cabeçalho-->
+        <header>
+            <h1>Quiz interativo para programadores</h1>
+            <p>Teste seus conhecimentos em progrmação e vejo qual pontuação você consegue fazer!</p>
+        </header>   
+        
+        <main>
+            <!--Introdução-->
+            <section>
+                <!-- <strong> = MUITO IMPORTANTE -->
+                <!-- <em> = menos IMPORTANTE -->
+
+                <h2>Sobre esse quiz</h2>
+                <p><strong>Este site</strong> foi desenvolvido com o objetivo de apoiar quem está dando os primeiros passos no mundo da programação. Por meio de perguntas objetivas e didáticas, o quiz permite que iniciantes testem seus conhecimentos, identifiquem pontos de <em>melhoria e acompanhem sua evolução de forma prática</em> e acessível.</p>
+                <p>Acreditamos que aprender programação vai além de assistir aulas ou ler tutoriais — é preciso praticar. Por isso, oferecemos uma experiência interativa que transforma o estudo em um desafio estimulante, ajudando o usuário a fixar conceitos fundamentais com mais eficiência.</p>
+
+                <!-- <abbr> = Colocar o significado de abreviações - marcar abreviações ou acrônimos dentro de um texto. Ela permite que você associe o significado completo de uma abreviação ao termo abreviado, o que melhora a acessibilidade e a semântica do documento -->
+
+                <p>Entre os conteúdos disponíveis, o site conta com desafios voltados para <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, duas das tecnologias essenciais para quem deseja ingressar no desenvolvimento web. Por meio dessas questões, o usuário poderá compreender melhor a estrutura de páginas web e a aplicação de estilos de forma progressiva e orientada.</p>
+
+                <p>Seja você alguém que acabou de escrever sua primeira linha de código ou que está consolidando os fundamentos da área. <br> Coloque seu aprendizado à prova!</p>
+        
+            </section>
+        
+            <!--Pegunta 1: múltipla escolha-->
+            <section>
+                <h2>Pergunta 1: Qual linguagem é utilizada para estruturar páginas web?</h2>
+                <!-- <form> = formulário-->
+                <!-- <input> = entrada-->
+                <!-- <label> = legenda-->
+                <form>
+                    <input type="radio" value="Python" id ="p1a" name="pergunta1">
+                    <label for="p1a">Python</label><br>
+                    <input type="radio" value="CSS" name="pergunta1" id="p1b">
+                    <label for="p1b">CSS</label><br>
+                    <input type="radio" value="HTML" name="pergunta1" id="p1c">
+                    <label for="p1c">HTML</label><br>
+                    <input type="radio" value="Java" name="pergunta1" id="p1d">
+                    <label for="p1d">Java</label><br>
+                </form>
+            </section>
+
+            <!--Pegunta 2: texto-->
+            <section>
+                <h2>Pergunta 2: Na URL https://www.google.com  o trecho "google.com é o ______________</h2>
+                <form>
+                    <input type="text" name="pergunta2" id="p2" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+
+            <!--Pergunta 3: senha-->
+            <section>
+                <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+                <form>
+                    <input type="password" name="pergunta3" id="p3" placeholder="Digite uma senha...">
+                </form>
+            </section>
+        
+            <!--Pegunta 4: data-->
+            <section>
+                <h2>Pergunta 4: Em que o ano o HTML lançou sua primeira vesão?</h2>
+                <form>
+                    <input type="date" name="pergunta4" id="p4">
+                </form>
+            </section>
+
+            <!--Pergunta 5: seleção múltipla-->
+            <section>
+                <h2>Pergunta 5: Quais dessa tecnologias são consideradas linguagem de programação</h2>
+                <form>
+                    <input type="checkbox" value="Javascript" name="pergunta5" id="p5a">
+                    <label for="p5a">Javascript</label><br>
+                    <input type="checkbox" value="HTML" name="pergunta5" id="p5a">
+                    <label for="p5b">HTML</label><br>
+                    <input type="checkbox" value="CSS" name="pergunta5" id="p5a">
+                    <label for="p5c">CSS</label><br>
+                    <input type="checkbox" value="Ruby" name="pergunta5" id="p5a">
+                    <label for="p5c">Ruby</label><br>                                  
+                </form>
+            </section>
+        </main>
+
+        <!--Rodapé-->
+        <footer></footer>     
+    </body>
+</html>
